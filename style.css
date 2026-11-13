@@ -4,3 +4,19 @@
 
 /* Original SolidWorks assembly and component previews. */
 .cad-gallery{padding:18px;gap:14px}.cad-gallery .assembly-preview{height:270px;object-fit:contain;mix-blend-mode:multiply}.cad-parts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.cad-parts>div{background:#f8f7f3;text-align:center;padding-bottom:12px}.cad-parts img{width:100%;height:175px;object-fit:contain;mix-blend-mode:multiply}.cad-parts span{font-size:8px;letter-spacing:1px;color:var(--green)}.cad-gallery figcaption{margin-top:0;font-size:7px;line-height:1.6}.hero-art img{padding:38px 35px 65px;object-fit:contain}@media(max-width:760px){.cad-gallery .assembly-preview{height:250px}.cad-parts img{height:150px}}
+
+/* Professional certifications. */
+.certifications{margin:0 6%;padding:50px 0 60px;border-top:1px solid #aeb8ab}
+.certificate-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+.certificate-card{padding:0;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;min-width:0}
+.certificate-preview{display:block;border-bottom:1px solid var(--line)}
+.certificate-preview img{display:block;width:100%;height:auto}
+.certificate-copy{padding:25px;display:flex;flex-direction:column;flex:1}
+.certificate-copy .eyebrow{font-size:8px;letter-spacing:1.3px;margin-bottom:15px}
+.certificate-copy h3{font-size:21px;line-height:1.4;margin-bottom:17px}
+.certificate-copy h3 span{white-space:nowrap}
+.certificate-date{font-size:12px;color:var(--muted);margin-bottom:8px}
+.certificate-id{font-size:10px;color:var(--muted);letter-spacing:.4px;margin-bottom:20px;overflow-wrap:anywhere}
+.certificate-copy .text-link{margin-top:auto}
+@media(max-width:760px){header{height:auto;min-height:85px;gap:14px;padding-top:20px;padding-bottom:20px;flex-wrap:wrap}.logo{white-space:nowrap}nav{gap:20px;flex-wrap:wrap}nav a:nth-child(2){display:inline}.certificate-grid{grid-template-columns:1fr;gap:24px}.certifications{padding:35px 0 40px}.certificate-copy{padding:22px}.certificate-copy h3{font-size:21px}}
+@media print{.certifications{margin:0;padding:25px 0}.certificate-grid{gap:20px}.certificate-card{break-inside:avoid}.certificate-copy{padding:15px}.certificate-copy h3{font-size:17px}}
